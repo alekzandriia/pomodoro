@@ -4,3 +4,13 @@
   --main-text: #DBE0F7;
   --inactive-text: #656A83;
 }
+
+body {
+  background: var(--main-bg);
+  color: var(--main-text);
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, button {
+  text-transform: lowercase;
+}
