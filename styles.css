@@ -64,10 +64,33 @@ input[type=radio]:checked + label {
   color: var(--main-bg)
 }
 
-.pomodoro-timer {
+.pomodoro-timer-wrapper {
   width:50vmin;
   height:50vmin;
   border: 1px solid white;
   border-radius: 50%;
 }
+.pomodoro-timer {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
 
+.time-left {
+  font-size:10vmin;
+}
+
+.pause {
+  font-size:3vmin;
+  letter-spacing: 0.25em;
+  background:none;
+  border:none;
+  color: var(--inactive-text);
+  cursor:pointer;
+}
+
+.settings-btn {
+  background:none;
+  border:none;
+  cursor:pointer;
+}
