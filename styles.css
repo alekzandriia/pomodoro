@@ -67,7 +67,7 @@ input[type=radio]:checked + label {
 .pomodoro-timer-wrapper {
   width:50vmin;
   height:50vmin;
-  border: 1px solid white;
+  border: 1px solid var(--accent);
   border-radius: 50%;
 }
 .pomodoro-timer {
@@ -82,7 +82,7 @@ input[type=radio]:checked + label {
 
 .pause {
   font-size:3vmin;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.5em;
   background:none;
   border:none;
   color: var(--inactive-text);

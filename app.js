@@ -1,0 +1,6 @@
+let timer = document.getElementById('time')
+let control = document.getElementById('control')
+let settings = document.getElementById('settings')
+let pomodoro = document.getElementById('pomodoro')
+let short = document.getElementById('short')
+let long = document.getElementById('long')
