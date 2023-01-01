@@ -3,14 +3,45 @@
   --accent: #F96C71;
   --main-text: #DBE0F7;
   --inactive-text: #656A83;
+  --shadow: #151932;
 }
 
 body {
   background: var(--main-bg);
   color: var(--main-text);
   font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 
-h1, button {
+h1 {
   text-transform: lowercase;
 }
+
+.radio {
+  border: none;
+  background: var(--shadow);
+  display:inline-block;
+  border-radius: 2rem;
+  padding:1rem;
+}
+
+input[type=radio] {
+  display:none;
+}
+
+label {
+  cursor:pointer;
+  color: var(--inactive-text);
+  font-size: small;
+  border-radius:2rem;
+  padding:0.75rem 1rem;
+  transition: all 300ms;
+}
+
+input[type=radio]:checked + label {
+  background: var(--accent);
+  color: var(--main-bg)
+}
+
+
+
