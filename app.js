@@ -32,7 +32,7 @@ radio.addEventListener('change', () => {
     s = 1200
   } else if (short.checked) {
     timer.textContent = '5:00'
-    s = 10
+    s = 300
   } else if (long.checked) {
     timer.textContent = '30:00'
     s = 1800

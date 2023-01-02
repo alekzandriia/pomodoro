@@ -94,4 +94,5 @@ input[type=radio]:checked + label {
   background:none;
   border:none;
   cursor:pointer;
+  visibility: hidden;
 }
