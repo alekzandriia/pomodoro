@@ -31,14 +31,17 @@ radio.addEventListener('change', () => {
     timer.textContent = '25:00'
     s = 1500
     clearInterval(interval)
+    control.textContent = 'start'
   } else if (short.checked) {
     timer.textContent = '5:00'
     s = 300
     clearInterval(interval)
+    control.textContent = 'start'
   } else if (long.checked) {
     timer.textContent = '30:00'
     s = 1800
     clearInterval(interval)
+    control.textContent = 'start'
   }
 })
 
